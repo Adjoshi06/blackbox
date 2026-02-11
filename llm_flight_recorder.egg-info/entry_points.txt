@@ -1,0 +1,2 @@
+[console_scripts]
+trace = cli.trace_cli.main:run

@@ -1,0 +1,11 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+COPY pyproject.toml ./
+COPY backend ./backend
+COPY worker ./worker
+COPY sdk ./sdk
+COPY cli ./cli
+RUN pip install --no-cache-dir .
+
+CMD ["python", "-m", "worker.app.runner"]
