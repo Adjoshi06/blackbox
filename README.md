@@ -1,4 +1,4 @@
-# LLM Flight Recorder (M0-M2)
+
 
 Blackbox is a “flight recorder” for LLM systems (RAG, agents, tool use) that captures every decision and artifact in a deterministic, replayable trace. It includes a **time-travel cockpit UI** that lets you rewind to any step, swap a component (prompt/retriever/model), and re-run from that point to see causal impacts.
 
