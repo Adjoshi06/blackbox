@@ -1,0 +1,6 @@
+# Repo policy for obvious automation (Adjoshi06/blackbox)
+# Default branch and merge method auto-detected from GitHub repo settings:
+# all merge methods (merge commit, squash, rebase) are enabled; squash chosen
+# as the default for automated setup PRs.
+default_branch: master
+merge_method: squash
